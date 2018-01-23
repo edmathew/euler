@@ -18,6 +18,9 @@ import org.junit.runners.Parameterized.Parameters;
  */
 @RunWith(Parameterized.class)
 public class PalimdromeUtilsTest {
+    
+    private final int number;
+    private final boolean isPalimdrome;
 
     @Parameters
     public static Collection<Object[]> data() {
@@ -29,8 +32,6 @@ public class PalimdromeUtilsTest {
         });
     }
 
-    private final int number;
-    private final boolean isPalimdrome;
 
     public PalimdromeUtilsTest(final int number, final boolean isPalimdrome) {
         this.number = number;

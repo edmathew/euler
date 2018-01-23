@@ -17,7 +17,7 @@ public class Problem4 implements Problem {
 
     }
 
-    public int calcLargestProductPalindrome(int nDigits) {
+    public int calcLargestProductPalindrome(final int nDigits) {
         final int bottom = (int) (Math.pow(10, nDigits - 1));
         final int top = (int) (Math.pow(10, nDigits));
 
@@ -26,10 +26,8 @@ public class Problem4 implements Problem {
         for (int i = top - 1; i >= bottom; i--) {
             for (int j = top - 1; j >= i; j--) {
                 final int product = i * j;
-                if (product > result) {
-                    if (PalindromeUtils.isPalindrome(product)) {
-                        result = product;
-                    }
+                if (product > result && PalindromeUtils.isPalindrome(product)) {
+                    result = product;
                 }
             }
         }

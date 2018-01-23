@@ -15,15 +15,15 @@ import org.junit.runners.Parameterized;
 @RunWith(Parameterized.class)
 public class SimpleFactorizerTest {
     
+    private final int n;
+    private final int result;
+    
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
             {24, 8}, {48, 10}
         });
     }
-    
-    private final int n;
-    private final int result;
     
     public SimpleFactorizerTest(final int n, final int result){
         this.n = n;

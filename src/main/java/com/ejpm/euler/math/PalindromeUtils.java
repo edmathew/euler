@@ -11,7 +11,7 @@ public class PalindromeUtils {
         int n = number;
         int reversed = 0;
         while(n != 0){
-            int remainder = n %10;
+            final int remainder = n %10;
             reversed = reversed * 10 +remainder;
             n /= 10;
         }

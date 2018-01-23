@@ -18,6 +18,9 @@ import org.junit.runners.Parameterized.Parameters;
  */
 @RunWith(Parameterized.class)
 public class PrimeNumberTest {
+    
+    private final int number;
+    private final boolean isPrime;
 
     @Parameters
     public static Collection<Object[]> data() {
@@ -28,8 +31,6 @@ public class PrimeNumberTest {
         });
     }
 
-    private final int number;
-    private final boolean isPrime;
 
     public PrimeNumberTest(final int number, final boolean isPrime) {
         this.number = number;

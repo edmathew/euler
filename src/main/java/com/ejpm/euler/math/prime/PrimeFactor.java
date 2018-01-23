@@ -12,7 +12,7 @@ public class PrimeFactor {
     private final int primeNumber;
     private final int primeExponent;
 
-    public PrimeFactor(int primeNumber, int primeExponent) {
+    public PrimeFactor(final int primeNumber, final int primeExponent) {
         this.primeNumber = primeNumber;
         this.primeExponent = primeExponent;
     }

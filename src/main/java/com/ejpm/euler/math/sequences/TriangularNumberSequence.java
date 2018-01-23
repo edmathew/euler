@@ -10,7 +10,7 @@ package com.ejpm.euler.math.sequences;
  */
 public class TriangularNumberSequence {
     
-    public int getElement(int n){
+    public int getElement(final int n){
         return n*(n+1) / 2;
     }
 

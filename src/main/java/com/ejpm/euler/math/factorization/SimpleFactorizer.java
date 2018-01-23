@@ -14,7 +14,7 @@ public class SimpleFactorizer {
         final List<PrimeFactor> primeFactors = PrimeNumber.primeFactorization(n);
         int factorsQuantity = 1;
         factorsQuantity = primeFactors.stream()
-                .map((primeFactor) -> (primeFactor.getPrimeExponent() + 1))
+                .map((primeFactor) -> primeFactor.getPrimeExponent() + 1)
                 .reduce(factorsQuantity, (accumulator, _item) -> accumulator * _item);
 
         return factorsQuantity;

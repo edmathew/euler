@@ -18,6 +18,10 @@ import org.junit.runners.Parameterized.Parameters;
  */
 @RunWith(Parameterized.class)
 public class TriangularSequenceTest {
+    
+    private final int n;
+    private final int result;
+    private final TriangularNumberSequence sequence;
 
     @Parameters
     public static Collection<Object[]> data() {
@@ -25,10 +29,6 @@ public class TriangularSequenceTest {
             {1, 1}, {2, 3}, {3, 6}, {4, 10}, {5, 15}, {6, 21},{7, 28}, {8, 36}
         });
     }
-
-    private final int n;
-    private final int result;
-    private final TriangularNumberSequence sequence;
 
     public TriangularSequenceTest(final int n, final int result) {
         this.n = n;

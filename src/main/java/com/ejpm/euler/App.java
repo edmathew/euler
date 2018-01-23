@@ -10,7 +10,7 @@ public class App {
     @SuppressWarnings("unused")
     private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         System.out.println("Project Euler Solutions");
         new App().executeProblems();
         System.out.println("DONE");

@@ -18,7 +18,7 @@ public class FibonacciSequence {
         fiboStorage.put(1, BigInteger.ONE);
     }
 
-    public BigInteger getElement(int n) {
+    public BigInteger getElement(final int n) {
         if (fiboStorage.get(n) == null) {
             final BigInteger nMinus1 = getElement(n - 1);
             final BigInteger nMinus2 = getElement(n - 2);

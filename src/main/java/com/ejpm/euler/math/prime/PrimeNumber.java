@@ -16,7 +16,7 @@ public class PrimeNumber {
         if(number != 3 && number % 3 == 0)
             return false;
         
-        double r = Math.floor(Math.sqrt(number));
+        final double r = Math.floor(Math.sqrt(number));
         
         int f = 5;
         
@@ -38,7 +38,7 @@ public class PrimeNumber {
         long n = number;
         
         while(n > 1){
-            int prime = sequence.getNext();
+            final int prime = sequence.getNext();
             
             if(n % prime == 0){
                 int exponent = 0;

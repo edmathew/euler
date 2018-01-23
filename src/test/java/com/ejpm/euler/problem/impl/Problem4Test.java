@@ -17,16 +17,16 @@ import org.junit.runners.Parameterized;
 @RunWith(Parameterized.class)
 public class Problem4Test {
 
+    private final Problem4 problem;
+    private final int nDigits;
+    private final int largestPalindrome;
+    
      @Parameterized.Parameters
     public static Collection<Object[]> data() {
          return Arrays.asList(new Object[][]{
             {1, 9}, {2, 9009}, {3, 906609}
         });
     }
-    
-    private final Problem4 problem;
-    private final int nDigits;
-    private final int largestPalindrome;
 
     public Problem4Test(final int nDigits, final int largestPalindrome){
         problem = new Problem4();
