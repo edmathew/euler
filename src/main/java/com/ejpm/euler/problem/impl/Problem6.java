@@ -20,7 +20,7 @@ public class Problem6 implements Problem {
   public void execute() {
     long result = quadradoDaSoma(100) - somaDosQuadrados(100);
 
-    System.out.println("Problem 6:\t  The difference is " + result);
+    System.out.println("Problem 6:\t The difference is " + result);
   }
 
   public static long somaDosQuadrados(long numero) {
