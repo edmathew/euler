@@ -1,6 +1,6 @@
 package com.ejpm.euler.problem.impl;
 
-import com.ejpm.euler.math.prime.PrimeSequence;
+import com.ejpm.euler.utils.math.prime.PrimeSequence;
 import com.ejpm.euler.problem.Problem;
 
 /**

@@ -1,10 +1,9 @@
 package com.ejpm.euler.problem.impl;
 
 import com.ejpm.euler.problem.Problem;
-import com.ejpm.euler.text.NumberToText;
+import com.ejpm.euler.utils.text.NumberToText;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 
 /**

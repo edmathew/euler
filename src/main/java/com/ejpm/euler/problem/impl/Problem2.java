@@ -1,6 +1,6 @@
 package com.ejpm.euler.problem.impl;
 
-import com.ejpm.euler.math.FibonacciSequence;
+import com.ejpm.euler.utils.math.FibonacciSequence;
 import com.ejpm.euler.problem.Problem;
 import java.math.BigInteger;
 

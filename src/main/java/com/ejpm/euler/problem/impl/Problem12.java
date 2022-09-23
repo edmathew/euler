@@ -1,7 +1,7 @@
 package com.ejpm.euler.problem.impl;
 
-import com.ejpm.euler.math.factorization.SimpleFactorizer;
-import com.ejpm.euler.math.sequences.TriangularNumberSequence;
+import com.ejpm.euler.utils.math.factorization.SimpleFactorizer;
+import com.ejpm.euler.utils.math.sequences.TriangularNumberSequence;
 import com.ejpm.euler.problem.Problem;
  
 /**

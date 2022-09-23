@@ -1,7 +1,7 @@
 package com.ejpm.euler.problem.impl;
 
 import com.ejpm.euler.problem.Problem;
-import static com.ejpm.euler.math.SequencesSum.sumAllDivisibleBy;
+import static com.ejpm.euler.utils.math.SequencesSum.sumAllDivisibleBy;
 
 /**
  * If we list all the natural numbers below 10 that are multiples of 3 or 5, we

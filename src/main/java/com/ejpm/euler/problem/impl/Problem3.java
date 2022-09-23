@@ -1,7 +1,7 @@
 package com.ejpm.euler.problem.impl;
 
-import com.ejpm.euler.math.prime.PrimeFactor;
-import com.ejpm.euler.math.prime.PrimeNumber;
+import com.ejpm.euler.utils.math.prime.PrimeFactor;
+import com.ejpm.euler.utils.math.prime.PrimeNumber;
 import com.ejpm.euler.problem.Problem;
 import java.util.List;
 
